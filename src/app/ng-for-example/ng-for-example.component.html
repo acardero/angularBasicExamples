@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let animal of animals, let i = index, let x = odd trackBy:animalTrackerFunction">
+      {{ i }} - {{ x }} - {{animal.name}}
+  </li>
+</ul>
